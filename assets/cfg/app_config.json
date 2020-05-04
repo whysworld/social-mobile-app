@@ -1,0 +1,7 @@
+{
+  "apiUrl": "https://as-tracksite-api-staging.azurewebsites.net/api",
+  "policyUrl": "http://www.valudio.com/en/timetracker-privacy-policy",
+  "environment": "staging",
+  "appCenterSecretIos" :"960355d3-1eac-4d52-a05a-1911182f95dc",
+  "appCenterSecretAndroid" :"930d7617-aa55-4895-be30-4c487b43a018"
+}

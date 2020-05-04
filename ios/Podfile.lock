@@ -1,0 +1,80 @@
+PODS:
+  - appcenter (0.0.1):
+    - AppCenter
+    - Flutter
+  - AppCenter (1.2.0):
+    - AppCenter/Analytics (= 1.2.0)
+    - AppCenter/Crashes (= 1.2.0)
+  - AppCenter/Analytics (1.2.0):
+    - AppCenter/Core
+  - AppCenter/Core (1.2.0)
+  - AppCenter/Crashes (1.2.0):
+    - AppCenter/Core
+  - appcenter_analytics (0.0.1):
+    - AppCenter/Analytics
+    - Flutter
+  - appcenter_crashes (0.0.1):
+    - AppCenter/Crashes
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_keyboard_visibility (0.7.0):
+    - Flutter
+  - local_auth (0.0.1):
+    - Flutter
+  - package_info (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - url_launcher (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - appcenter (from `.symlinks/plugins/appcenter/ios`)
+  - appcenter_analytics (from `.symlinks/plugins/appcenter_analytics/ios`)
+  - appcenter_crashes (from `.symlinks/plugins/appcenter_crashes/ios`)
+  - Flutter (from `.symlinks/flutter/ios-release`)
+  - flutter_keyboard_visibility (from `.symlinks/plugins/flutter_keyboard_visibility/ios`)
+  - local_auth (from `.symlinks/plugins/local_auth/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AppCenter
+
+EXTERNAL SOURCES:
+  appcenter:
+    :path: ".symlinks/plugins/appcenter/ios"
+  appcenter_analytics:
+    :path: ".symlinks/plugins/appcenter_analytics/ios"
+  appcenter_crashes:
+    :path: ".symlinks/plugins/appcenter_crashes/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios-release"
+  flutter_keyboard_visibility:
+    :path: ".symlinks/plugins/flutter_keyboard_visibility/ios"
+  local_auth:
+    :path: ".symlinks/plugins/local_auth/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+
+SPEC CHECKSUMS:
+  AppCenter: d0b68b2a7a87ac0aed78e66f36d87fd321d0a29c
+  appcenter: ec63d9079174977ead44a0040ff083d6dd4c94c5
+  appcenter_analytics: 46cd35cb5fac57f7a4b2ae5d5040f984b4ad4b5a
+  appcenter_crashes: 1b06d86617183e4778779b59f85a25c4bbc89493
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_keyboard_visibility: 6195387fb6d8f46e5cd6dda4a4154e41f800f545
+  local_auth: 17f985934bb4ab2637431e5b3fe1b2d6698d2051
+  package_info: 48b108e75b8802c2d5e126f208ef540561c98aef
+  shared_preferences: 430726339841afefe5142b9c1f50cb6bd7793e01
+  url_launcher: a1c0cc845906122c4784c542523d8cacbded5626
+
+PODFILE CHECKSUM: b8da9da02b7a114b69a3b6b6ec963b473caf44b4
+
+COCOAPODS: 1.8.4

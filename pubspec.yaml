@@ -1,0 +1,66 @@
+name: tracksite
+
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.4+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  intl: ^0.15.8
+  flutter_localizations:
+    sdk: flutter
+  flutter_typeahead: ^1.6.1
+  redux: ^3.0.0
+  flutter_redux: ^0.5.3
+  http: ^0.12.0+1
+  shared_preferences: ^0.5.4+6
+  flutter_dotenv: ^2.0.1
+  uuid: ^2.0.2
+  package_info: ^0.4.0+6
+  local_auth: ^0.5.2+3
+  url_launcher: ^5.0.2
+  table_calendar: ^1.2.4
+  appcenter: ^0.2.1
+  appcenter_analytics: ^0.2.1
+  appcenter_crashes: ^0.2.1
+  keyboard_actions: "^2.1.2"
+  global_configuration: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.3
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/cfg/app_config.json
+  fonts:
+    - family: Arciform
+      fonts:
+        - asset: fonts/Arciform.ttf
+    - family: AvenirNext
+      fonts:
+        - asset: fonts/AvenirNext.ttf
